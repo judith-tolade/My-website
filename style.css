@@ -101,3 +101,23 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media(max-width: 576px) {
+    img{
+        display: none;
+    }
+    p{
+        font-size: 15px;
+    }
+    h1{
+        font: size 90px; ;
+    }
+    h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+
+}
